@@ -1,0 +1,33 @@
+# Reference record of the settings actually used to produce results/ and models/
+# (scripts/*.py currently take these as CLI flags/constants rather than reading this
+# file directly — kept here as documentation of the run configuration).
+
+data:
+  h5ad_path: data/norman.h5ad
+  n_top_genes: 2000
+  seed: 0
+
+splits:
+  held_out_gene_fraction: 0.25
+  combo_0_test_fraction: 0.3
+
+embeddings:
+  coexpression_dim: 32
+  perturbation_response_dim: 32
+  n_landmark_genes: 500
+
+model:
+  pair_embed_dim: 128 # [sum, |diff|] of two 64-dim gene embeddings
+  hidden_dim: 256
+
+training:
+  optimizer: adamw
+  learning_rate: 1.0e-3
+  weight_decay: 1.0e-5
+  batch_size: 128
+  max_epochs: 40
+  early_stopping_patience: 10
+  max_cells_per_perturbation: 200
+
+ensemble:
+  seeds: [11, 22, 33, 44, 55]

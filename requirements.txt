@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+scikit-learn
+scanpy
+anndata
+torch
+matplotlib
+seaborn
+streamlit
+pyyaml
+pytest
+tqdm
+gseapy
+requests

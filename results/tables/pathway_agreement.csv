@@ -1,0 +1,6 @@
+perturbation,category,e_distance,top_observed_pathway,top_predicted_pathway,pathway_jaccard_top20
+JUN_CEBPA,test_combo_1_unseen,20.973788628760467,Negative Regulation Of Transforming Growth Factor Beta Production (GO:0071635),Positive Regulation Of Interleukin-6 Production (GO:0032755),0.1111111111111111
+CEBPA,train,18.76232627835204,Positive Regulation Of Interleukin-6 Production (GO:0032755),Positive Regulation Of Interleukin-6 Production (GO:0032755),0.21212121212121213
+CEBPE_SPI1,test_combo_2_unseen,17.317897986084553,Positive Regulation Of Interleukin-6 Production (GO:0032755),Regulation Of Apoptotic Process (GO:0042981),0.0
+DUSP9_SNAI1,test_combo_0_unseen,7.845195141031324,Activation Of Cysteine-Type Endopeptidase Activity Involved In Apoptotic Process (GO:0006919),Hydrogen Peroxide Catabolic Process (GO:0042744),0.05263157894736842
+IRF1,test_unseen_single,7.832498334620196,Antigen Processing And Presentation Of Endogenous Peptide Antigen (GO:0002483),Hydrogen Peroxide Catabolic Process (GO:0042744),0.0

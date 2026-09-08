@@ -1,0 +1,22 @@
+name: scperturbai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - pytest
+  - tqdm
+  - pip
+  - pip:
+      - scanpy
+      - anndata
+      - torch
+      - streamlit
+      - gseapy
